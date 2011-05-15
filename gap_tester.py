@@ -254,16 +254,16 @@ def mutate_population(population):
 	second_upper = 0.40 * size
 	for i in range(size):
 		if i >= second_upper: #final 60 percent
-			for j in range(12): #10 mutation steps
-				if random.random() < 0.75: #each step has probability=0.5
+			for j in range(10): #10 mutation steps
+				if random.random() < 0.5: #each step has probability=0.5
 					mutate_partition(population[i])
 		elif first_upper <= i < second_upper: #previous 30 percent
-			for j in range(6): #4 mutation steps
+			for j in range(4): #4 mutation steps
 				if random.random() < 0.5: #each step has probability=0.5
 					mutate_partition(population[i])
 		else: #first 10 percent
-			for j in range(2):
-				if random.random() < 0.25: #one mutation step with probability=0.1
+			for j in range(1):
+				if random.random() < 0.1: #one mutation step with probability=0.1
 					mutate_partition(population[i])
 	
 def iterate_generation(population):
