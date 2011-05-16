@@ -1,0 +1,27 @@
+This is my final project for CS 499 - Nature Inspired Computation, and the final
+project of my undergraduate education. It is an attempt to develop a Genetic 
+Algorithm which can take in a list of individuals' schedules and a number, k, 
+which is the desired group size, and partition the individuals into k groups, 
+matched up to have optimally matching schedules. It was inspired by a TA task
+that I was given where I had to partition students into project groups in such 
+a way that students would be put into the best possible groups based on their
+schedules of availability.
+
+Normally, I would not place a class project online like this, for a number of 
+reasons. But, CS 499 is a "special topics" course so the specific "Nature 
+Inspired Computation" class is unlikely to be repeated in this particular form 
+and thus there is no fear of this work being used to assist any students in 
+cheating. Additionally, this class is styled as an unofficial capstone course, 
+and so on some level this is a capstone project for me. And, I was unable to 
+find any application for Genetic Algorithms quite like this one, so I do believe
+it has a degree of novelty (though GAs have been applied to other brands of 
+partition problems with success).
+
+The documentation, including the final paper and a presentation, can be found in
+the 'docs/' directory. The source code for a standalone implementation of the 
+Genetic Algorithm and the source code for a miniature test suite which compares 
+the GA against three competing algorithms on a set of test problems can be found
+in the 'src/' directory.
+
+It's been fun. Yay, college!
+
