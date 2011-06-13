@@ -1,11 +1,11 @@
 This is my final project for CS 499 - Nature Inspired Computation, and the final
 project of my undergraduate education. It is an attempt to develop a Genetic 
-Algorithm which can take in a list of individuals' schedules and a number, k, 
-which is the desired group size, and partition the individuals into k groups, 
-matched up to have optimally matching schedules. It was inspired by a TA task
-that I was given where I had to partition students into project groups in such 
-a way that students would be put into the best possible groups based on their
-schedules of availability.
+Algorithm which can take in a list of individuals' schedules, of length n, and a 
+number, k, which is the desired group size, and partition the individuals into 
+n/k groups, matched up to have optimally matching schedules. It was inspired by 
+a TA task that I was given where I had to partition students into project groups 
+in such a way that students would be put into the best possible groups based on 
+their schedules of availability.
 
 Normally, I would not place a class project online like this, for a number of 
 reasons. But, CS 499 is a "special topics" course so the specific "Nature 
